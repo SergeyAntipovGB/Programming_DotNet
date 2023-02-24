@@ -29,16 +29,16 @@ while (count < 10000)
         y = ( y + ya ) / 2;
     }
 
-    if (what  == 1)
+    if (what == 1)
     {
-        x=(x+xb)/2;
-        y=(y+yb)/2;
+        x = (x + xb) / 2;
+        y = (y + yb) / 2;
     }
 
     if (what == 2)
     {
-        x=(x+xc)/2;
-        y=(y+yc)/2;
+        x = (x + xc) / 2;
+        y = (y + yc) / 2;
     }
     Console.SetCursorPosition(x,y);
     Console.Write("+");
